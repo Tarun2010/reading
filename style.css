@@ -33,3 +33,26 @@ h1 {
 .menu:hover{
     color: steelblue;
 }
+#TOA1{
+    height: 472px;
+    width: 310px;
+}
+
+#about{
+    color:crimson;
+}
+#welcome{
+    color: aqua;
+}
+#mifav{
+    color: chartreuse;
+}
+#percyj{
+    color: chartreuse;
+}
+#TOArating{
+    text-align: center;
+}
+html{
+scroll-behavior: smooth;
+}
