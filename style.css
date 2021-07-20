@@ -30,9 +30,7 @@ h1 {
     
 
 }
-.menu:hover{
-    color: steelblue;
-}
+
 #TOA1{
     height: 472px;
     width: 310px;
@@ -55,4 +53,11 @@ h1 {
 }
 html{
 scroll-behavior: smooth;
+}
+#author{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+#author:hover{
+    transform: scale(0.9);
 }
