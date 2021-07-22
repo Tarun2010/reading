@@ -4,6 +4,7 @@ body {
     background: linear-gradient(164deg, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 100) 50%, rgba(0, 255, 252, 1) 100%);
     background-repeat: no-repeat;
     font-family: 'Cookie', cursive;
+    {margin:0;}
 }
 
 h1 {
@@ -22,14 +23,16 @@ h1 {
 .menu{
     list-style: none;
     font-family: cursive;
-    float: right;
-    top: 10px;
+    top: 0px;
     right: 30px;
     cursor: pointer;
     color: black;
-    
-
+    width: 100%;
+position: fixed;
+    left:0;
 }
+
+
 
 #TOA1{
     height: 472px;
@@ -60,4 +63,40 @@ scroll-behavior: smooth;
 }
 #author:hover{
     transform: scale(0.9);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float:left
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+#writing a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
 }
